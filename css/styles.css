@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+#header-nav {
+    background-color: #AAA5A5;
+    border-radius: 0;
+    border: 0;    
+    border: solid black 2px;
+    margin-bottom: 30px;
+}
+
+.navbar-brand {       
+    padding-left: 0;
+	padding-bottom: 45px;	
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+.navbar-brand h1 {    
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+	font-weight: bold;
+    color: black;   
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.text-center {
+    font-family: 'Lato', sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 75px;
+}
+
+#text {       
+    margin: 10px;
+    background-color: #AAA5A5;
+    font-family: 'Lato', sans-serif;   
+    position: relative;
+}
+
+#nav-list {
+    margin-top: 10px;
+	vertical-align: middle;
+}
+
+#nav-list a {
+    text-align: center;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    background-color: #AAA5A5;
+}
+
+#nav-list a:hover {
+    background-color: #AEAE52;   
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+  vertical-align: middle;
+}
+
+.navbar-default .navbar-collapse {
+	position: relative;
+	vertical-align: middle;
+	margin-top:0px;
+	border: 0px;
+	list-style-type: none;
+	overflow: hidden;
+}  
